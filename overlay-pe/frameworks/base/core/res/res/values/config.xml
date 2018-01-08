@@ -68,4 +68,6 @@
     <integer name="config_longPressOnAppSwitchBehavior">1</integer>
     -->
 
+    <integer name="config_buttonBrightnessSettingDefault">1</integer> 
+
 </resources>
