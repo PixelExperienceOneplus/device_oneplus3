@@ -23,8 +23,6 @@
          Otherwise, the buttons will light up whenever the user interacts with the device
     <bool name="config_buttonLightOnKeypressOnly">true</bool> -->
 
-    <!-- <bool name="config_deviceHasVariableButtonBrightness">true</bool> -->
-
     <!-- Whether notify fingerprint client of successful cancelled authentication -->
     <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool> 
 
@@ -68,6 +66,22 @@
     <integer name="config_longPressOnAppSwitchBehavior">1</integer>
     -->
 
-    <integer name="config_buttonBrightnessSettingDefault">1</integer> 
+    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+    <integer name="config_buttonBrightnessSettingDefault">128</integer>
+    <bool name="config_deviceHasButtonBacklight">true</bool>
+
+    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveBatteryLed">true</bool>
+
+    <!-- Does the battery LED support multiple colors?
+         Used to decide if the user can change the colors -->
+    <bool name="config_multiColorBatteryLed">true</bool>
+
+    <!-- Do the battery/notification LEDs support pulsing?
+         Used to decide if we show pulse settings -->
+    <bool name="config_ledCanPulse">true</bool>
+
+    <!-- Whether device has dash charging support -->
+    <bool name="config_hasDashCharger">true</bool>
 
 </resources>
